@@ -1,0 +1,9 @@
+{
+  "source": "https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/uciml/default-of-credit-card-clients-dataset",
+  "sha256": "a0f0ab49d6326671d6cd83be5c88dcf18007025fe9a53ecd699119c871176ca1",
+  "rows": 30000,
+  "author": "I-Cheng Yeh",
+  "original_source": "https://doi.org/10.24432/C55S3H",
+  "license": "CC BY 4.0"
+}

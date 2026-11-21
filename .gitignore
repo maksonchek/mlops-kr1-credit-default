@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+mlflow.db
+mlartifacts/
+mlruns/
+*.log
+ОТВЕТЫ_46-49.md

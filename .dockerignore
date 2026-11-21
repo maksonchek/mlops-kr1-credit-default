@@ -1,0 +1,7 @@
+*
+!Dockerfile
+!requirements-api.txt
+!requirements-api-lock-linux.txt
+!app.py
+!model.joblib
+!model_context.json

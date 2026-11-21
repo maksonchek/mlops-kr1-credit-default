@@ -1,0 +1,71 @@
+{
+  "model": "catboost_d6_lr0.05",
+  "source": "https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset",
+  "features": [
+    "LIMIT_BAL",
+    "SEX",
+    "EDUCATION",
+    "MARRIAGE",
+    "AGE",
+    "PAY_0",
+    "PAY_2",
+    "PAY_3",
+    "PAY_4",
+    "PAY_5",
+    "PAY_6",
+    "BILL_AMT1",
+    "BILL_AMT2",
+    "BILL_AMT3",
+    "BILL_AMT4",
+    "BILL_AMT5",
+    "BILL_AMT6",
+    "PAY_AMT1",
+    "PAY_AMT2",
+    "PAY_AMT3",
+    "PAY_AMT4",
+    "PAY_AMT5",
+    "PAY_AMT6"
+  ],
+  "categorical": [
+    "SEX",
+    "EDUCATION",
+    "MARRIAGE"
+  ],
+  "target": "default.payment.next.month",
+  "threshold": 0.2627572963736171,
+  "threshold_rule": "maximum F1 on development OOF",
+  "seed": 2026,
+  "development_size": 23999,
+  "test_size": 6001,
+  "development_default_rate": 0.22055085628567858,
+  "test_default_rate": 0.2237960339943343,
+  "cv_roc_auc": 0.7838630706407154,
+  "test": {
+    "roc_auc": 0.781764980831863,
+    "gini": 0.5635299616637259,
+    "average_precision": 0.5641577787681276,
+    "log_loss": 0.42933374039253586,
+    "brier": 0.13445088347694945,
+    "precision": 0.5181278839815425,
+    "recall": 0.5852568875651526,
+    "f1": 0.5496503496503496,
+    "accuracy": 0.7853691051491418
+  },
+  "confusion_matrix": [
+    [
+      3927,
+      731
+    ],
+    [
+      557,
+      786
+    ]
+  ],
+  "libraries": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scikit-learn": "1.5.1",
+    "catboost": "1.2.8",
+    "mlflow": "2.16.2"
+  }
+}

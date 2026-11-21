@@ -1,0 +1,7 @@
+{
+  "test_rows": 6001,
+  "joblib_max_probability_difference": 0.0,
+  "mlflow_max_probability_difference": 0.0,
+  "selected_run_id": "e0ea9e90090b481fb255692ec91db36a",
+  "group_overlap_train_test": 0
+}

@@ -1,0 +1,25 @@
+{
+  "checked_rows": 200,
+  "sampling": "100 default and 100 non-default test clients, seed 2026",
+  "max_probability_difference": 0.0,
+  "class_predictions_match": true,
+  "invalid_statuses": {
+    "missing": 422,
+    "extra": 422,
+    "negative_limit": 422,
+    "text": 422,
+    "category": 422,
+    "fractional_category": 422
+  },
+  "health_status": 200,
+  "docs_status": 200,
+  "pip_check": "No broken requirements found.",
+  "image_id": "sha256:8323571415cf165a17092a7bc221416963db91418bf4de9cbda7fcf8ba86346a",
+  "image_size_bytes": 913110952,
+  "example_response": {
+    "default_probability": 0.1270054471084343,
+    "prediction": 0,
+    "threshold": 0.2627572963736171
+  },
+  "date": "2026-11-21"
+}
